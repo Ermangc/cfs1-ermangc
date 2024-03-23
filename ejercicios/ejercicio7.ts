@@ -3,8 +3,9 @@
 // Encontrar el máximo de los elementos que se introdujeron
 // Analizar cómo cambia el programa para hallar el mínimo
 
-const realineSync = require("readline-sync");
-let numerosUsuario : number = realineSync.questionInt("ingrese un numero: ");
+//const realineSync = require("readline-sync");
+import * as readlinesync from 'readline-sync';
+let numerosUsuario : number = readlinesync.questionInt("ingrese un numero: ");
 let numeroMax : number = numerosUsuario;
 let numeroMin : number = numerosUsuario;
 
@@ -14,7 +15,7 @@ while (numerosUsuario != 0){
     }else if(numerosUsuario < numeroMin){
         numeroMin = numerosUsuario
         }else{
-        numerosUsuario  = realineSync.questionInt("ingrese un numero: ");
+        numerosUsuario  = readlinesync.questionInt("ingrese un numero: ");
     }
 }
 console.log("El numero maximo ingresado es: ", numeroMax);

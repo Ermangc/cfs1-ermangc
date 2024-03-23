@@ -1,6 +1,7 @@
 // Desarrolle un algoritmo que dados tres números determine 
 // cuál es el mayor de los tres.
 
+
 const readlineSync = require("readline-sync");
 
 // obtener los numeros por medio del usuario
