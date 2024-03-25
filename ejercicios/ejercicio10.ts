@@ -4,11 +4,11 @@
 
 import * as readlinesync from "readline-sync";
 
+// Se toman los datos del usuario para luego ser tomados como parametros en la funcion
 let numero1Ingresado = readlinesync.questionInt("Ingrese el primer numero: ");
 let numero2Ingresado = readlinesync.questionInt("Ingrese el primer segundo: ");
 
 function esMultiplo(numero1 : number , numero2 : number) {
-
     numero1 = numero1Ingresado;
     numero2 = numero2Ingresado;
     if (numero1 % numero2 == 0){
