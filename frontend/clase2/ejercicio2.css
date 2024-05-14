@@ -1,0 +1,43 @@
+
+.encabezado{
+    background-color: blue;
+    color: azure;
+    width: 95%;
+    height: 5%;
+    margin: 1%;
+    border: dotted 3px dodgerblue;
+}
+
+.encabezado h1 {
+    margin-left: 40%;
+    margin-top: 30px;
+    color: cornsilk;
+    font-size: xx-large;
+}
+
+.main1{
+    background-color: crimson;
+    padding: 2%;
+}
+
+.main1 img , .main2 img{
+    width: 40%;
+    border: solid 2px white;
+    margin-left: 30%;
+}
+
+.main2{
+    background-color: aqua;
+}
+
+.main2 h2 {
+    text-align: center;
+    color: black;
+    padding: 10px;
+    background-color: cornsilk;
+}
+
+
+.main3{
+    background-color: indigo;
+}
