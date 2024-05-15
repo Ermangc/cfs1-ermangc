@@ -1,0 +1,115 @@
+
+
+
+.header{
+    background-color: grey;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 80.8%;
+    margin-left: 0.5%;
+}
+
+.header h1 {
+    font-size: medium;
+    margin-left: 2%;
+}
+
+.menu1{
+    border: solid 1px black;
+    background-color: green;
+    height: 12%;
+    width: 40%;
+    text-align: center;
+    margin: auto 1% auto 45%;
+}
+.logo{
+    border: solid 1px black;
+    color: antiquewhite;
+    background-color: blue;
+    height: 12%;
+    width: 10%;
+    text-align: center;
+    margin: auto auto 1% 2%;
+}
+
+.menu2{
+    border: solid 1px black;
+    background-color: red;
+    height: 12%;
+    width: 60%;
+    text-align: center;
+    margin-right: 1%;
+}
+
+.main{
+    width: 100%;
+}
+
+.main div{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 0.5%;
+}
+
+.izquierda{
+    border: solid 0.5px black;
+    border-radius: 8px;
+    background-color: darkgray;
+    padding: 10%;
+}
+
+.centro{
+    border: solid 0.5px black;
+    border-radius: 8px;
+    background-color: aqua;
+    padding: 10%;
+}
+
+.derecha{
+    border: solid 0.5px black;
+    border-radius: 8px;
+    padding: 10%;
+    background-color: orange;
+}
+
+.izquierda2{
+    border: solid 0.5px black;
+    border-radius: 8px;
+    background-color: darkgreen;
+    padding: 10% 22.3%;
+}
+
+.derecha2{
+    border: solid 0.5px black;
+    border-radius: 8px;
+    padding: 10%;
+    background-color: brown;
+}
+
+.footer{
+    border: solid 0.5px black;
+    border-radius: 8px;
+    width: 80.8%;
+    margin-left: 0.5%;
+    display: flex;
+    justify-content: space-between;
+    background-color: lightblue;
+}
+
+.footer h2{
+    font-size: medium;
+    margin-left: 2%;
+}
+
+.elemento{
+    color: antiquewhite;
+    align-self: center;
+    background-color: blue;
+    height: 12%;
+    width: 10%;
+    text-align: center;
+    margin-right: 5%;
+}
