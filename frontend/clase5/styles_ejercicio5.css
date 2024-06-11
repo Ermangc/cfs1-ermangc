@@ -1,0 +1,54 @@
+body{
+    background-color: rgba(26, 25, 25, 0.116);
+    color: blanchedalmond;
+}
+
+header{
+    max-width: 70%;
+    background-color: #468;
+    text-align: center;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contenedor-formulario{
+    margin: auto auto 2em;
+    max-width: 40%;
+    background-color: #579;
+    box-shadow: 2px 8px 8px #555;
+}
+
+.formulario{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    max-width: 100%;
+    margin: auto;
+    padding: 1.5em;
+}
+
+.formulario label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    margin: 0.2em;   
+}
+
+.formulario input{
+    border: none;
+    border-bottom: solid #333;
+    background-color: inherit;
+    margin: 0.5em;
+}
+
+.formulario input::placeholder{
+    color: #999;
+}
+
+.formulario button{
+    max-width: min-content;
+    align-self: flex-end;
+    background-color: #333;
+    color: inherit;
+    box-shadow: 2px 2px 2px #222;
+}
