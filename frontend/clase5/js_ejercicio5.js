@@ -14,13 +14,13 @@ function onFocus(x) {
 
 function onClick(){
     let nombre = nombreMedicamento.value;
-    let bajaStock = bajaStock.value;
-    let altaStock = altaStock.value;
+    let bajaStocks = bajaStock.value;
+    let altaStocks= altaStock.value;
 }
 
 btnConfirmar.addEventListener("click", ()=>{
     onClick();
     divLista = document.createElement("ul");
-    divLista.appendChild(ul) = document.createElement("li");
-    li.innerHTML = `${nombre} + ${bajaStock} + ${altaStock}`;
+    divLista.appendChild("ul") = document.createElement("li");
+    li.innerHTML = "`${nombre} + ${bajaStocks} + ${altaStocks}`";
 })
