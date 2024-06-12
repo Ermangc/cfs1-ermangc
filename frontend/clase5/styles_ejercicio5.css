@@ -53,3 +53,10 @@ header{
     box-shadow: 2px 2px 2px #222;
 }
 
+.lista-medicamentos{
+    background-color: #579;
+}
+
+#copiar{
+    color: red;
+}
