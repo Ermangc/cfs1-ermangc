@@ -14,17 +14,17 @@
         <div class="contenedor-formulario">
             <form class="formulario">
                 <label for="nombre">Nombre Medicamento</label>
-                <input type="text" id="nombre" placeholder="Ingrese nombre del medicamento vencido">
+                <input type="text" id="nombre" onfocus="onFocus(this)" placeholder="Ingrese nombre del medicamento vencido">
                 <label for="baja_stock">Cantidad a dar de baja</label>
-                <input type="number" id="baja_stock" placeholder="0">
+                <input type="number" id="baja_stock" onfocus="onFocus(this)" placeholder="0">
                 <label for="alta_stock">Cantidad a dar de alta</label>
-                <input type="number" id="alta_stock" placeholder="0">
-                <button type="button" id="btn-confirmar">Confirmar</button>
+                <input type="number" id="alta_stock" onfocus="onFocus(this)" placeholder="0">
+                <button type="button" id="btn-confirmar" onclick="onClick()">Confirmar</button>
             </form>
         </div>
 
-        <div class="lista-medicamentos">
-            <p>pppp</p>
+        <div class="lista-medicamentos" id="div_lista">
+            
         </div>
     </main>
     <script src="./js_ejercicio5.js"></script>
